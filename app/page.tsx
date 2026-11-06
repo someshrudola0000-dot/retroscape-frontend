@@ -186,7 +186,7 @@ export default function Home() {
               history beyond the pages of a book.
             </p>
 
-            {/* Hero Buttons: Monuments, 3D and AR */}
+            {/* Hero Buttons: Monuments, 3D, AR and AI Guide */}
             <div className="mt-9 flex flex-wrap items-center gap-4">
               <Link
                 href="/monuments"
@@ -215,6 +215,14 @@ export default function Home() {
               >
                 <span aria-hidden="true">⌖</span>
                 View in AR
+              </Link>
+
+              <Link
+                href="/explore/ai-guide"
+                className="inline-flex items-center gap-2 rounded-full border border-[#D4AF37]/70 bg-[#D4AF37]/10 px-6 py-4 text-sm text-[#E8D59A] backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:bg-[#D4AF37]/20 hover:text-[#F9F6F0]"
+              >
+                <span aria-hidden="true">✨</span>
+                AI Guide
               </Link>
 
               <a
